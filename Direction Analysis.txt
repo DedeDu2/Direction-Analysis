@@ -1,0 +1,9 @@
+def is_northerly_wind(direction):
+    return direction in ['N', 'NE', 'NW']
+
+# Example usage:
+wind_direction = 'N'
+if is_northerly_wind(wind_direction):
+    print("The wind is blowing from the north.")
+else:
+    print("The wind is not coming from the north.")
